@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>EKO Scan code LIVE EAN 13</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width; initial-scale=1.0; user-scalable=no" name="viewport">
+  <meta content="" name="description">
+  <meta content="EKO Solution" name="author">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+    <div class="headline">
+      <h1>Scan avec QuaggaJS</h1>
+      <h2>Script Scan EAN13 à partir d'<a href="index_image.html">une photo</a> ou d'<a href=
+      "index_live.html">une video (Caméra)</a></h2>
+    </div>
+  </header>
+  <section class="container" id="container">
+    <form action="php/traitement_code.php" id="TheForm" method="post" name="TheForm">
+      <p>Input du Code</p><input id="barcode" name="barcode" type="text" value="">
+    </form>
+    <h3>Scan EAN13 à partir d'une Vidéo Live</h3>
+    <div class="controls">
+      <fieldset class="input-group">
+        <button class="start_live">Démarrer</button>
+      </fieldset>
+    </div>
+    <div id="result_strip">
+      <ul class="thumbnails"></ul>
+      <ul class="collector"></ul>
+    </div>
+    <div class="viewport" id="interactive"></div>
+  </section>
+  <script src="js/jquery-1.9.0.js" type="text/javascript">
+  </script>
+  <script src="//webrtc.github.io/adapter/adapter-latest.js" type="text/javascript">
+  </script>
+  <script src="js/quagga.js" type="text/javascript">
+  </script>
+  <script src="js/script_live.js" type="text/javascript">
+  </script>
+</body>
+</html>
