@@ -1,9 +1,13 @@
 # EKO - SCRIPT SCAN EAN 13
 ## Démo en ligne
 Impossible de trouver une version stable et compatible pour tous les appareils.
-La seule solution est de proposer 2 outils :
+La seule solution est de proposer 3 outils :
+**EAN 13**
 - Le scan via une photo prise sur le moment (ou bien en stock dans la bibliothèque) : https://mon-chatbot.com/Scan_Eko/index_image.html (Disponible via iOS et Android depuis un navigateur Web)
 - Le scan via une video Live à partir de la caméra de l'appareil : https://mon-chatbot.com/Scan_Eko/index_live.html (Non stable)
+
+**QR CODE :**
+- Le scan via une photo prise sur le moment (ou bien en stock dans la bibliothèque) : https://mon-chatbot.com/Scan_Eko/index_QR.html (Disponible via iOS et Android depuis un navigateur Web)
 
 ## Objectifs
 - Récuperer à partir d'une image ou d'une vidéo un Code-bar EAN 13 et envoyer directement le formulaire vers une page de détail en .PHP
